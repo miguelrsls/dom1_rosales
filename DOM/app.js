@@ -26,7 +26,7 @@ btnGenerar.addEventListener('click', () => {
 
     // Removemos la clase 'hidden' para que el contenedor sea visible en la pantalla
     resultadoContenedor.classList.remove('hidden');
-
+    console.log("La accion de conversion de cifrado de token ha sido correcta.")
     // Opcional: Cambiamos el estilo dinámicamente mediante el DOM para dar feedback visual
     tokenOutput.style.backgroundColor = "#e8f8f5"; 
     tokenOutput.style.borderLeftColor = "#2ecc71"; // Cambia a verde al completarse
