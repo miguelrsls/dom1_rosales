@@ -4,7 +4,7 @@ const btnGenerar = document.getElementById('btnGenerar');
 const resultadoContenedor = document.getElementById('resultadoContenedor');
 const tokenOutput = document.getElementById('tokenOutput');
 
-const nombre_alumno = "SOY JUAN PEREZ SOSA MI PROGRAMA TERMINO A LAS: ";
+const nombre_alumno = "SOY JUAN PEREZ SOSA Y MI PROGRAMA TERMINO A LAS: ";
 const fecha = new Date();
 
 // 2. Escuchar el evento de clic en el botón
@@ -14,7 +14,7 @@ btnGenerar.addEventListener('click', () => {
     // Validación simple mediante el DOM
     if (correo === "" || !correo.includes('@')) {
         alert("Por favor, introduce un correo electrónico válido.");
-        console.error("NO PUSISTE EL ARROBA PONTE PILAS!")
+        console.error("NO PUSISTE EL ARROBA PONTE PILAS!!")
         return;
     }
 
